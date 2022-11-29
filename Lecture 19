@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    char symbol = 'T';
+    int a = 100;
+    float b = 10.10;
+    double c = 50.23;
+    
+    int array[5] { 5, 10, 15, 20, 30};
+    int arraySum = array[0] + array[1] + array[2] + array[3] + array[4];
+    
+    cout << arraySum << endl;
+    cout << arraySum / 5 << endl;
+
+   
+    
+    return 0;
+}
